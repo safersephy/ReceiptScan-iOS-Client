@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F13F6170174F5A9AE7ECAB7 /* Pods_resttest3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F768B2B2D8BECDF9863F71 /* Pods_resttest3.framework */; };
 		9A34881D24F0027100B28E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34881C24F0027100B28E21 /* AppDelegate.swift */; };
 		9A34881F24F0027100B28E21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34881E24F0027100B28E21 /* SceneDelegate.swift */; };
 		9A34882124F0027100B28E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34882024F0027100B28E21 /* ViewController.swift */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A34881924F0027100B28E21 /* resttest3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resttest3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCB54EC911E25F73E040173 /* Pods-resttest3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resttest3.debug.xcconfig"; path = "Target Support Files/Pods-resttest3/Pods-resttest3.debug.xcconfig"; sourceTree = "<group>"; };
+		9A34881924F0027100B28E21 /* ReceiptApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A34881C24F0027100B28E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A34881E24F0027100B28E21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9A34882024F0027100B28E21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		9A34882524F0027300B28E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A34882824F0027300B28E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A34882A24F0027300B28E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B640FA7FCA58AEBEF5572D23 /* Pods-resttest3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resttest3.release.xcconfig"; path = "Target Support Files/Pods-resttest3/Pods-resttest3.release.xcconfig"; sourceTree = "<group>"; };
+		E8F768B2B2D8BECDF9863F71 /* Pods_resttest3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_resttest3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,29 +35,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F13F6170174F5A9AE7ECAB7 /* Pods_resttest3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		111C1DB8ED8D36237DAFBBC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FCB54EC911E25F73E040173 /* Pods-resttest3.debug.xcconfig */,
+				B640FA7FCA58AEBEF5572D23 /* Pods-resttest3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		437AE97BE04AA8C748B44054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8F768B2B2D8BECDF9863F71 /* Pods_resttest3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A34881024F0027100B28E21 = {
 			isa = PBXGroup;
 			children = (
-				9A34881B24F0027100B28E21 /* resttest3 */,
+				9A34881B24F0027100B28E21 /* ReceiptApp */,
 				9A34881A24F0027100B28E21 /* Products */,
+				111C1DB8ED8D36237DAFBBC3 /* Pods */,
+				437AE97BE04AA8C748B44054 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		9A34881A24F0027100B28E21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A34881924F0027100B28E21 /* resttest3.app */,
+				9A34881924F0027100B28E21 /* ReceiptApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A34881B24F0027100B28E21 /* resttest3 */ = {
+		9A34881B24F0027100B28E21 /* ReceiptApp */ = {
 			isa = PBXGroup;
 			children = (
 				9A34881C24F0027100B28E21 /* AppDelegate.swift */,
@@ -64,27 +88,29 @@
 				9A34882724F0027300B28E21 /* LaunchScreen.storyboard */,
 				9A34882A24F0027300B28E21 /* Info.plist */,
 			);
-			path = resttest3;
+			path = ReceiptApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A34881824F0027100B28E21 /* resttest3 */ = {
+		9A34881824F0027100B28E21 /* ReceiptApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A34882D24F0027300B28E21 /* Build configuration list for PBXNativeTarget "resttest3" */;
+			buildConfigurationList = 9A34882D24F0027300B28E21 /* Build configuration list for PBXNativeTarget "ReceiptApp" */;
 			buildPhases = (
+				9846DA3CC271237627166D2E /* [CP] Check Pods Manifest.lock */,
 				9A34881524F0027100B28E21 /* Sources */,
 				9A34881624F0027100B28E21 /* Frameworks */,
 				9A34881724F0027100B28E21 /* Resources */,
+				4A6C9D7143BEA01F4057BA0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = resttest3;
+			name = ReceiptApp;
 			productName = resttest3;
-			productReference = 9A34881924F0027100B28E21 /* resttest3.app */;
+			productReference = 9A34881924F0027100B28E21 /* ReceiptApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A34881424F0027100B28E21 /* Build configuration list for PBXProject "resttest3" */;
+			buildConfigurationList = 9A34881424F0027100B28E21 /* Build configuration list for PBXProject "ReceiptApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A34881824F0027100B28E21 /* resttest3 */,
+				9A34881824F0027100B28E21 /* ReceiptApp */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A6C9D7143BEA01F4057BA0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resttest3/Pods-resttest3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resttest3/Pods-resttest3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-resttest3/Pods-resttest3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9846DA3CC271237627166D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-resttest3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A34881524F0027100B28E21 /* Sources */ = {
@@ -282,11 +350,12 @@
 		};
 		9A34882E24F0027300B28E21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCB54EC911E25F73E040173 /* Pods-resttest3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDYYJ87NY3;
-				INFOPLIST_FILE = resttest3/Info.plist;
+				INFOPLIST_FILE = ReceiptApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +369,12 @@
 		};
 		9A34882F24F0027300B28E21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B640FA7FCA58AEBEF5572D23 /* Pods-resttest3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDYYJ87NY3;
-				INFOPLIST_FILE = resttest3/Info.plist;
+				INFOPLIST_FILE = ReceiptApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A34881424F0027100B28E21 /* Build configuration list for PBXProject "resttest3" */ = {
+		9A34881424F0027100B28E21 /* Build configuration list for PBXProject "ReceiptApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A34882B24F0027300B28E21 /* Debug */,
@@ -328,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A34882D24F0027300B28E21 /* Build configuration list for PBXNativeTarget "resttest3" */ = {
+		9A34882D24F0027300B28E21 /* Build configuration list for PBXNativeTarget "ReceiptApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A34882E24F0027300B28E21 /* Debug */,
