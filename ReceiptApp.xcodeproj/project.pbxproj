@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F13F6170174F5A9AE7ECAB7 /* Pods_resttest3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F768B2B2D8BECDF9863F71 /* Pods_resttest3.framework */; };
+		7A5A0B25A4A5EE95C9645448 /* Pods_ReceiptApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11411DDBEEFF665A50BA5146 /* Pods_ReceiptApp.framework */; };
 		9A34881D24F0027100B28E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34881C24F0027100B28E21 /* AppDelegate.swift */; };
 		9A34881F24F0027100B28E21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34881E24F0027100B28E21 /* SceneDelegate.swift */; };
 		9A34882124F0027100B28E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34882024F0027100B28E21 /* ViewController.swift */; };
@@ -17,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11411DDBEEFF665A50BA5146 /* Pods_ReceiptApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReceiptApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC8ABD3C9E52A8E5CA7B4F5 /* Pods-ReceiptApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiptApp.debug.xcconfig"; path = "Target Support Files/Pods-ReceiptApp/Pods-ReceiptApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5FCB54EC911E25F73E040173 /* Pods-resttest3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resttest3.debug.xcconfig"; path = "Target Support Files/Pods-resttest3/Pods-resttest3.debug.xcconfig"; sourceTree = "<group>"; };
 		9A34881924F0027100B28E21 /* ReceiptApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A34881C24F0027100B28E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +28,8 @@
 		9A34882524F0027300B28E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A34882824F0027300B28E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A34882A24F0027300B28E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC045050C468893AE4D8C8AA /* Pods-ReceiptApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiptApp.release.xcconfig"; path = "Target Support Files/Pods-ReceiptApp/Pods-ReceiptApp.release.xcconfig"; sourceTree = "<group>"; };
 		B640FA7FCA58AEBEF5572D23 /* Pods-resttest3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resttest3.release.xcconfig"; path = "Target Support Files/Pods-resttest3/Pods-resttest3.release.xcconfig"; sourceTree = "<group>"; };
-		E8F768B2B2D8BECDF9863F71 /* Pods_resttest3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_resttest3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F13F6170174F5A9AE7ECAB7 /* Pods_resttest3.framework in Frameworks */,
+				7A5A0B25A4A5EE95C9645448 /* Pods_ReceiptApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +49,8 @@
 			children = (
 				5FCB54EC911E25F73E040173 /* Pods-resttest3.debug.xcconfig */,
 				B640FA7FCA58AEBEF5572D23 /* Pods-resttest3.release.xcconfig */,
+				1AC8ABD3C9E52A8E5CA7B4F5 /* Pods-ReceiptApp.debug.xcconfig */,
+				AC045050C468893AE4D8C8AA /* Pods-ReceiptApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -54,7 +58,7 @@
 		437AE97BE04AA8C748B44054 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E8F768B2B2D8BECDF9863F71 /* Pods_resttest3.framework */,
+				11411DDBEEFF665A50BA5146 /* Pods_ReceiptApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,15 +170,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-resttest3/Pods-resttest3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ReceiptApp/Pods-ReceiptApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-resttest3/Pods-resttest3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ReceiptApp/Pods-ReceiptApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-resttest3/Pods-resttest3-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReceiptApp/Pods-ReceiptApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9846DA3CC271237627166D2E /* [CP] Check Pods Manifest.lock */ = {
@@ -192,7 +196,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-resttest3-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReceiptApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -350,7 +354,7 @@
 		};
 		9A34882E24F0027300B28E21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FCB54EC911E25F73E040173 /* Pods-resttest3.debug.xcconfig */;
+			baseConfigurationReference = 1AC8ABD3C9E52A8E5CA7B4F5 /* Pods-ReceiptApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SugarPush.resttest3;
+				PRODUCT_BUNDLE_IDENTIFIER = SugarPush.ReceiptApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,7 +373,7 @@
 		};
 		9A34882F24F0027300B28E21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B640FA7FCA58AEBEF5572D23 /* Pods-resttest3.release.xcconfig */;
+			baseConfigurationReference = AC045050C468893AE4D8C8AA /* Pods-ReceiptApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SugarPush.resttest3;
+				PRODUCT_BUNDLE_IDENTIFIER = SugarPush.ReceiptApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
